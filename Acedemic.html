@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap table</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+  body {
+    background-color: #eee;
+  }
+.m-navbar {
+  background-color: #828ca7;
+  padding: 0 20px;
+}
+.m-navbar .nav-link {
+  color: #fff !important;
+  transition: 500ms;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.m-navbar .nav-link:hover {
+  color: #000 !important;
+  background-color: #fff;
+}
+img.logo {
+    width: 42px;
+}
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 500ms;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+
+  }
+  </style>
+
+</head>
+<body>
+ <div class="container">
+
+
+<nav class="navbar navbar-expand-md m-navbar navbar-light">
+  <a class="navbar-brand" href="#">
+    <img src="lightbulb.png" alt="My logo" class="logo">
+    Mohsin Hasan
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Gallay.html">Image</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Acedemic.html">Table</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <form class="form-inline ml-auto" >
+  <input class="form-control" type="text" placeholder="Search">
+  <button class="btn btn-success" >Search</button>
+  </form>
+</nav>
+<br>
+<div class="">
+  <h2>Name of Group's A Students</h2>
+  <hr>
+  <br>
+  <table class="table">
+    <thead>
+      <tr class="bg-info">
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="secondary bg-secondary">
+        <td>Mohsin</td>
+        <td>Hasan</td>
+        <td>def@somemail.com</td>
+      </tr>
+      <tr class="success bg-Default">
+        <td>Rubel</td>
+        <td>Hossin</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger bg-danger">
+        <td>Sojib</td>
+        <td>Hasan</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="info bg-info">
+        <td>Khalid</td>
+        <td>Hossion</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr class="warning bg-warning">
+        <td>Sojol</td>
+        <td>Das</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="active bg-primary">
+        <td>Rajib</td>
+        <td>Hasan</td>
+        <td>act@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br><br>
+<div class="">
+  <h2>Name of Group's B Students</h2>
+  <hr>
+  <br>
+  <table class="table">
+    <thead>
+      <tr class="bg-info">
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="secondary bg-secondary">
+        <td>Rifat</td>
+        <td>Haque</td>
+        <td>def@somemail.com</td>
+      </tr>
+      <tr class="success bg-Default">
+        <td>Sobuj</td>
+        <td>Hasan</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="danger bg-danger">
+        <td>Kajol</td>
+        <td>Jaman</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="info bg-info">
+        <td>Sojib</td>
+        <td>Hasan</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr class="warning bg-warning">
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="active bg-primary">
+        <td>Kawser</td>
+        <td>Khan</td>
+        <td>act@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
